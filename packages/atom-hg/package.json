@@ -1,0 +1,89 @@
+{
+  "name": "atom-hg",
+  "main": "./lib/atom-hg",
+  "version": "2.0.7",
+  "description": "Mercurial support for Atom text editor.",
+  "keywords": [
+    "mercurial",
+    "hg",
+    "vcs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor-torres/atom-hg.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.200.0"
+  },
+  "dependencies": {
+    "event-kit": "2.0.0",
+    "jsdifflib": "1.1.0"
+  },
+  "providedServices": {
+    "atom.repository-provider": {
+      "versions": {
+        "0.1.0": "getRepositoryProviderService"
+      }
+    }
+  },
+  "readme": "# atom-hg\n\nMercurial support for Atom text editor.\n\n## Features\n\n- line diff in text editor\n- file diff in tree view\n- branch name in status bar\n\n## How to use it\n\n- install it through Atom's package manager\n- run the command `atom .` inside your repository\n\n## Multi-platform\n\nWorks on:\n\n- 🐧 Linux\n- 🍎 Mac OS X\n- 🏁 Windows\n\n## Based on\n\n- Atom's Repository Provider Service\n- Atom's Git Repository\n- Atom's Git Diff\n\n## Author\n\n- Victor Torres [@victor-torres](https://github.com/victor-torres)\n\n## Contributors\n\n- Steven Atkinson [@mrstebo](https://github.com/mrstebo)\n\n## License\n\nMIT Copyright (c) 2016 Victor Torres\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/victor-torres/atom-hg/issues"
+  },
+  "homepage": "https://github.com/victor-torres/atom-hg#readme",
+  "_id": "atom-hg@2.0.7",
+  "_shasum": "6e43007df2561230f4b56490887e8735bc573676",
+  "_resolved": "file:../d-116815-3219-11ero54/package.tgz",
+  "_from": "../d-116815-3219-11ero54/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "event-kit",
+        "version": "2.0.0",
+        "path": "node_modules/event-kit/lib/event-kit.js"
+      },
+      {
+        "name": "jsdifflib",
+        "version": "1.1.0",
+        "path": "node_modules/jsdifflib/index.js"
+      }
+    ],
+    "extensions": {
+      ".coffee": [
+        "lib/atom-hg.coffee",
+        "lib/hg-repository-async.coffee",
+        "lib/hg-repository-provider.coffee",
+        "lib/hg-repository.coffee",
+        "lib/hg-utils.coffee"
+      ],
+      ".json": [
+        "node_modules/event-kit/api.json",
+        "node_modules/event-kit/package.json",
+        "node_modules/jsdifflib/package.json",
+        "package.json"
+      ],
+      ".js": [
+        "node_modules/event-kit/lib/composite-disposable.js",
+        "node_modules/event-kit/lib/disposable.js",
+        "node_modules/event-kit/lib/emitter.js",
+        "node_modules/event-kit/lib/event-kit.js",
+        "node_modules/jsdifflib/index.js"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          ""
+        ],
+        "dependencies": {
+          "event-kit": "2.0.0",
+          "jsdifflib": "1.1.0"
+        }
+      }
+    ]
+  }
+}

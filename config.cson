@@ -1,0 +1,18 @@
+"*":
+  core:
+    disabledPackages: [
+      "linter-js-standard-jsx"
+    ]
+    themes: [
+      "atom-light-ui"
+      "atom-dark-syntax"
+    ]
+  editor:
+    fontSize: 15
+    tabLength: 4
+  "exception-reporting":
+    userId: "19fc2087-eb28-0422-534e-20a7c8ad9151"
+  linter:
+    errorPanelHeight: 134
+  welcome:
+    showOnStartup: false
